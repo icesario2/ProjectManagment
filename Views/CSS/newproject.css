@@ -114,3 +114,27 @@
       background: #6eb8dd;
       }
       
+/*nav*/
+
+#nav{
+    display: inline-block;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.navButton{
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+}
+
+.navButton:hover{
+    background-color: darkgray;
+    opacity: 50%;
+}

@@ -17,13 +17,13 @@ body{
 
 .navButton{
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 10px;
     text-decoration: none;
     color: black;
     padding-left: 5%;
     padding-right: 5%;
-    color: black;
+    color: white;
 }
 
 .navButton:hover{
@@ -33,12 +33,15 @@ body{
 
 .header{   
     background-color: black;
+    color: white;
     height: 100vh;
     text-align: center;
     background-image: url(Images/HomeBG.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: rgba(155,155,200,.9); /* Tint color */
+    background-blend-mode: multiply;
     
     
 }
