@@ -138,3 +138,34 @@
     background-color: darkgray;
     opacity: 50%;
 }
+
+/*Footer*/
+footer{
+    background-color: #737373;
+    color: white;
+}
+
+footer img{
+    width: 5%;
+}
+
+.location{
+    width: 50%;
+    height: 10vh;
+    color: white;
+}
+
+.hours{
+    width: 49%;
+    height: 10vh;
+    color: white;
+}
+
+.location, .hours{
+    display: inline-block;
+    color: white;
+}
+
+.location p , .hours p{
+    color: white;
+}
