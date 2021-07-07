@@ -207,7 +207,7 @@
 
 .footer__nav {
   display: flex;
-    flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 .footer__nav > * {
@@ -220,7 +220,7 @@
 }
 
 .nav__ul--extra {
-  column-count: 2;
+  column-count: 1;
   column-gap: 1.25em;
 }
 
