@@ -40,7 +40,7 @@ body{
     color: white;
     height: 100vh;
     text-align: center;
-    background-image: url(Images/HomeBG.jpg);
+    background-image: url(image/HomeBG.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -129,7 +129,7 @@ body{
 
 .footer__nav {
   display: flex;
-    flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 .footer__nav > * {
@@ -142,7 +142,7 @@ body{
 }
 
 .nav__ul--extra {
-  column-count: 2;
+  column-count: 1;
   column-gap: 1.25em;
 }
 
