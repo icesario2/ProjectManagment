@@ -1,11 +1,16 @@
      
 /*IT PROJECT MANAGEMENT 
     Author:  Nenad, Isaiah, Tyler*/
-
-      html, body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ html, body {
       min-height: 100%;
       }
-      body, div, form, input, textarea, p { 
+
+body, div, form, input, textarea, p { 
       padding: 0;
       margin: 0;
       outline: none;
@@ -14,7 +19,17 @@
       color: #666;
       line-height: 22px;
       }
-      h1 {
+
+
+
+
+  section{
+      background-image: url(../Images/reserve.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    }
+h1 {
       color: #333333;
       position: absolute;
       margin: 0;
@@ -23,13 +38,51 @@
       color: #fff;
       z-index: 2;
       }
+
+    .header {
+      height: 150px;
+      justify-content: center;
+
+    }
+/*nav*/
+
+#nav{
+
+    display: inline-block;
+    text-align: center;
+    margin-top: 70px;
+    width: 100%;
+    }
+
+.navButton{
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    font-family: palatino,sans-serif;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navButton:hover{
+    color: #e0e0e0;
+    opacity: 50%;
+}
+
+    
+/*Form Style*/
+
       .Loki {
       display: flex;
-      justify-content: center;
+      justify-content:center;
       align-items: center;
       height: inherit;
       padding: 20px;
-      margin-left: 250px;
+      margin:auto;
       width: 46%;
 
       }
@@ -38,13 +91,13 @@
       padding: 20px;
       border-radius: 6px;
       background: #fff;
-      box-shadow: 0 0 25px 0 #d6e0f5; 
+      opacity: 95%;
+       
       }
       .start{
       font-size: 1.5em;  
-      margin-left: 110px;
+      margin: auto;
       height: 50px;
-      text-align: center;
       color: #333333;
       }
       input, textarea {
@@ -113,31 +166,7 @@
       button:hover {
       background: #6eb8dd;
       }
-      
-/*nav*/
 
-#nav{
-    display: inline-block;
-    text-align: center;
-    margin-top: 100px;
-    width: 100%;
-}
-
-.navButton{
-    text-align: center;
-    border: 2px solid black;
-    padding: 10px;
-    text-decoration: none;
-    color: black;
-    padding-left: 5%;
-    padding-right: 5%;
-    color: black;
-}
-
-.navButton:hover{
-    background-color: darkgray;
-    opacity: 50%;
-}
 
 /*Footer*/
 .footer {
@@ -160,6 +189,7 @@
 }
 
 .footer__logo {
+  color:black ;
   font-family: 'Pacifico', cursive;
   font-weight: 400;
   font-size: 1.5rem;
@@ -243,4 +273,7 @@
   display: flex;
   flex-wrap: wrap;
   color: #999;
+}
+.logo{
+  margin-top: 15px;
 }
