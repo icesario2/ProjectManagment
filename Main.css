@@ -58,10 +58,7 @@ body{
     font-family: palatino,sans-serif;
     font-weight: 700;
     font-style: normal;
-    
-
-    
-}
+    }
 
 /*Footer*/
 
@@ -81,6 +78,7 @@ body{
 .footer__addr {
   margin-right: 1.25em;
   margin-bottom: 2em;
+  list-style: none;
 }
 
 .footer__logo {
