@@ -3,7 +3,17 @@
 }
 
 body{
-    background-color: black;
+    background-color: white;
+}
+.aboutUs p:first-of-type:first-letter{
+    float:left;
+    font-size: 4em;
+    line-height: 0.8em;
+    margin-right: 0.3em;
+    padding-right: 0.2em;
+    padding-bottom: 0.2em;
+    border-right:0.02em black solid;
+    border-bottom:0.02em black solid;
 }
 
 
@@ -30,7 +40,7 @@ body{
     font-family: palatino,sans-serif;
     border: none;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .navButton:hover{
@@ -41,34 +51,37 @@ body{
 .header{   
     background-color: black;
     color: white;
-    height: 70vw;
+    height: 40vw;
     text-align: center;
     background-image: url(../../Images/aboutUsBG.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: rgba(155,155,200,.9); /* Tint color */
-    background-blend-mode: multiply;
+    background-blend-mode:multiply;
     
     
 }
-
 body img{
     width: 49.7%;
     display: inline-block;
     
 }
 
+
 .aboutUs{
-    background-color: white;
+    background-color:#b9bec7;
+    font-family: 'Pacifico', cursive;
+    background-color:white;
     color: black;
-    opacity: 85%;
-    width: 60vw;
-    display: inline-block;
-    margin-top: 20%;
+    opacity: 95%;
+    width: 80vw;
+    display: block;
+    text-align: center;
     font-size: 20px;
     padding: 20px;
     border-radius: 50px;
+    margin: auto;
 }
 
 
@@ -180,4 +193,6 @@ body img{
 }
 .logo{
   margin-top: 15px;
+  height: 40px;
+  width: 40px;
 }
