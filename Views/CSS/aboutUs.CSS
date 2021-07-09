@@ -1,3 +1,14 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+
+
+
 /*nav*/
 
 #nav{
@@ -30,7 +41,7 @@
 .header{   
     background-color: black;
     color: white;
-    height: 140vh;
+    height: 70vw;
     text-align: center;
     background-image: url(../../Images/aboutUsBG.jpg);
     background-repeat: no-repeat;
@@ -42,7 +53,23 @@
     
 }
 
+body img{
+    width: 49.7%;
+    display: inline-block;
+    
+}
 
+.aboutUs{
+    background-color: white;
+    color: black;
+    opacity: 85%;
+    width: 60vw;
+    display: inline-block;
+    margin-top: 20%;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 50px;
+}
 
 
 /*Footer*/
