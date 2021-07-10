@@ -1,10 +1,85 @@
 *{
     margin: 0px;
+    box-sizing: border-box;
 }
 
-.menuItems{
+body{
+    background-color:#f9f9f9}
+
+.header{   
+    background-color: black;
+    color: white;
+    height: 15vw;
     text-align: center;
+    background-image: url(Locations.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(155,155,200,.9); /* Tint color */
+    background-blend-mode:multiply;
+    
+    
 }
+
+.maps {
+
+  position: relative;
+  height: 900px
+  display: inline;
+  margin: 10px;
+  width: 50%;
+}
+.maps iframe{
+  display: block;
+  width: 100%;
+  
+}
+
+aside {
+
+  margin-right: 120px;
+  margin-top: 300px;
+  height: 450px;
+  float: right;
+  width: 40%;
+  
+  font-size: 50px;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+aside:first-of-type:first-letter{
+    
+    font-size: 2em;
+    line-height: 0.8em;
+    margin-right: 0.3em;
+    padding-right: 0.2em;
+    padding-bottom: 0.2em;
+    border-right:0.02em black solid;
+    border-bottom:0.02em black solid;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #ffffff; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+
+
+.maps:hover .overlay {
+  opacity: 90%;
+}
+
 
 /*nav*/
 
@@ -18,7 +93,7 @@
 
 .navButton{
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     text-decoration: none;
     color: black;
     padding-left: 5%;
@@ -27,7 +102,7 @@
     font-family: palatino,sans-serif;
     border: none;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .navButton:hover{
@@ -35,73 +110,8 @@
     opacity: 50%;
 }
 
-.header{   
-    background-color: black;
-    color: white;
-    height: 140vh;
-    text-align: center;
-    background-image: url(../../Images/menuBG.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: rgba(155,155,200,.9); /* Tint color */
-    background-blend-mode: multiply;
-    
-    
-}
 
 
-/*Menu displays*/
-#appatizers h3:hover {
-    opacity: 75%;
-}
-
-#appMenu{
-    display: none;
-}
-
-#brunch h3:hover {
-    opacity: 75%;
-}
-#brunchMenu{
-    display: none;
-}
-
-#lunch h3:hover {
-    opacity: 75%;
-}
-#lunchMenu{
-    display: none;
-}
-
-#dinner h3:hover {
-    opacity: 75%;
-}
-#dinnerMenu{
-    display: none;
-}
-
-.menuItems{
-    font-family: palatino,serif;
-    font-size: 1.1em;
-    margin-top: 5%;
-    width: 80vw;
-    display: inline-block;
-    height: 80%;
-    background-color: white;
-    opacity: 80%;
-}
-
-.menuItems div{
-    background-color: white;
-    display: inline-block;
-    color: black;
-    margin-top: 5%;
-    border-radius: 15px;
-    padding-left: 45px;
-    padding-right: 45px;
-    border: 1px solid grey
-}
 
 
 /*Footer*/
@@ -212,4 +222,6 @@
 }
 .logo{
   margin-top: 15px;
+  height: 40px;
+  width: 40px;
 }
