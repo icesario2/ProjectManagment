@@ -8,8 +8,8 @@ body{
 }
 
 #nav{
-    
     display: inline-block;
+    white-space:nowrap;
     text-align: center;
     margin-top: 100px;
     width: 100%;
@@ -53,6 +53,7 @@ body{
 }
 
 .name{
+    white-space:nowrap;
     display: inline-block;
     margin-top: 200px;
     padding: 50px;
