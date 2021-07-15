@@ -10,7 +10,7 @@
 
 #nav{
     white-space:nowrap;
-    display: inline-block;
+    display: inline-table;
     text-align: center;
     margin-top: 70px;
     width: 100%;
