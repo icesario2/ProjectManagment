@@ -84,7 +84,7 @@ aside:first-of-type:first-letter{
 /*nav*/
 
 #nav{
-
+    white-space:nowrap;
     display: inline-block;
     text-align: center;
     margin-top: 70px;
