@@ -9,7 +9,7 @@
 /*nav*/
 
 #nav{
-
+    white-space:nowrap;
     display: inline-block;
     text-align: center;
     margin-top: 70px;
