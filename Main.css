@@ -8,6 +8,7 @@ body{
 }
 
 #nav{
+    position:fixed;
     display: inline-block;
     text-align: center;
     margin-top: 100px;
@@ -36,7 +37,6 @@ body{
 }
 
 .header{   
-    position:fixed;
     background-color: black;
     color: white;
     height: 100vh;
